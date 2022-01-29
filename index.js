@@ -21,6 +21,7 @@ async function moveNPC() {
     await npc.walkSouth(1500);
     await npc.walkWest(2700);
     await npc.walkNorth(400);
+    moveNPC();
 }
 moveNPC();
 
